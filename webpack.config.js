@@ -53,13 +53,10 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: './src/index.html'
+            template: './public/index.html'
            
         }),
-        new HtmlWebpackPlugin({
-            filename: 'login.html',
-            template: './src/login.html'
-        }),
+        
         new MiniCssExtractPlugin({
             filename: 'styles.css'
         })
